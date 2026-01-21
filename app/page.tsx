@@ -17,8 +17,8 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex justify-center w-full">
-          <Link href="/quoter" className="group max-w-sm w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link href="/quoter" className="group">
             <Card className="h-full hover:shadow-lg transition-all border-[#153A66]/20 hover:border-[#153A66]">
               <CardContent className="p-6 flex flex-col items-center text-center space-y-4 pt-10">
                 <div className="p-4 bg-[#E8EFF5] rounded-full group-hover:bg-[#153A66] transition-colors">
@@ -37,11 +37,11 @@ export default function Home() {
             </Card>
           </Link>
 
-          {/* <Link href="/customers" className="group">
-            <Card className="h-full hover:shadow-lg transition-all border-gray-200 hover:border-gray-300">
+          <Link href="/customers" className="group">
+            <Card className="h-full hover:shadow-lg transition-all border-[#153A66]/20 hover:border-[#153A66]">
               <CardContent className="p-6 flex flex-col items-center text-center space-y-4 pt-10">
-                <div className="p-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors">
-                  <Users className="w-8 h-8 text-gray-500 group-hover:text-gray-700 transition-colors" />
+                <div className="p-4 bg-[#E8EFF5] rounded-full group-hover:bg-[#153A66] transition-colors">
+                  <Users className="w-8 h-8 text-[#153A66] group-hover:text-white transition-colors" />
                 </div>
                 <div className="space-y-2">
                   <h2 className="text-xl font-bold text-gray-900">Mantenedor de Clientes</h2>
@@ -49,12 +49,12 @@ export default function Home() {
                     Administre la base de datos de clientes, obras y contactos.
                   </p>
                 </div>
-                <div className="pt-4 text-gray-500 font-medium flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="pt-4 text-[#153A66] font-medium flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
                   Ir a Clientes <ArrowRight className="w-4 h-4" />
                 </div>
               </CardContent>
             </Card>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </div>

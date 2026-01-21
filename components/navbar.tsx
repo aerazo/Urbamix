@@ -22,12 +22,12 @@ export function Navbar() {
             icon: Calculator,
             active: pathname === "/quoter",
         },
-        // {
-        //     href: "/customers",
-        //     label: "Clientes",
-        //     icon: Users,
-        //     active: pathname === "/customers",
-        // },
+        {
+            href: "/customers",
+            label: "Clientes",
+            icon: Users,
+            active: pathname === "/customers",
+        },
     ]
 
     const [isOpen, setIsOpen] = useState(false)

@@ -2,6 +2,12 @@
   "node": {
     "405d5ce13db908c301cfcb078031df3f04ac535bbc": {
       "workers": {
+        "app/customers/page": {
+          "moduleId": "[project]/.next-internal/server/app/customers/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCustomerByRut",
+          "filename": "app/actions/customers.ts"
+        },
         "app/quoter/page": {
           "moduleId": "[project]/.next-internal/server/app/quoter/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
@@ -10,10 +16,71 @@
         }
       },
       "layer": {
+        "app/customers/page": "rsc",
         "app/quoter/page": "action-browser"
       },
       "filename": "app/actions/customers.ts",
       "exportedName": "getCustomerByRut"
+    },
+    "0048b2553ccd45695c4020ae2e25b01f4694988b95": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": "[project]/.next-internal/server/app/customers/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCustomers",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "rsc"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "getCustomers"
+    },
+    "40279aa14786e7daa954ecf18ed5e50cbb0ab17db1": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": "[project]/.next-internal/server/app/customers/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCustomer",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "createCustomer"
+    },
+    "404eda5480d6dcfd51785f91b0a21a19c55fbc6758": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": "[project]/.next-internal/server/app/customers/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCustomer",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "deleteCustomer"
+    },
+    "600f7fc82e731ce902efe1c3632349ab6be2ae0ace": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": "[project]/.next-internal/server/app/customers/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCustomer",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "updateCustomer"
     }
   },
   "edge": {},
