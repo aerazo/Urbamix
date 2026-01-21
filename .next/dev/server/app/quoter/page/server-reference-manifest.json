@@ -1,0 +1,20 @@
+{
+  "node": {
+    "405d5ce13db908c301cfcb078031df3f04ac535bbc": {
+      "workers": {
+        "app/quoter/page": {
+          "moduleId": "[project]/.next-internal/server/app/quoter/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/customers.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCustomerByRut",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/quoter/page": "action-browser"
+      },
+      "exportedName": "getCustomerByRut",
+      "filename": "app/actions/customers.ts"
+    }
+  },
+  "edge": {}
+}

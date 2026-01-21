@@ -1,0 +1,88 @@
+{
+  "node": {
+    "00060ad8d13b0d37e8465dc89648b79c0d77c67c57": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": 15944,
+          "async": false,
+          "exportedName": "getCustomers",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "rsc"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "getCustomers"
+    },
+    "405235bbcc2131d1a7d0667f8516fb2dc848a4ce81": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": 15944,
+          "async": false,
+          "exportedName": "deleteCustomer",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "deleteCustomer"
+    },
+    "4094834d9665eed788b2f08182c5d3b8d3497142ee": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": 15944,
+          "async": false,
+          "exportedName": "getCustomerByRut",
+          "filename": "app/actions/customers.ts"
+        },
+        "app/quoter/page": {
+          "moduleId": 16854,
+          "async": false,
+          "exportedName": "getCustomerByRut",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "rsc",
+        "app/quoter/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "getCustomerByRut"
+    },
+    "40e1a43864d9112d04d5a4cbfc71cc0571e72aee12": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": 15944,
+          "async": false,
+          "exportedName": "createCustomer",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "createCustomer"
+    },
+    "6032b3807b95d0ee4beaf51d4f0a2286792c1e41a3": {
+      "workers": {
+        "app/customers/page": {
+          "moduleId": 15944,
+          "async": false,
+          "exportedName": "updateCustomer",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/customers/page": "action-browser"
+      },
+      "filename": "app/actions/customers.ts",
+      "exportedName": "updateCustomer"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "mC/GHtxwEm20LnxUGG8dKBF4iPz2SDRLP8jNmwnWAFE="
+}

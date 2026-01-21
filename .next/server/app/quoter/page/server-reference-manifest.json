@@ -1,0 +1,20 @@
+{
+  "node": {
+    "4094834d9665eed788b2f08182c5d3b8d3497142ee": {
+      "workers": {
+        "app/quoter/page": {
+          "moduleId": 16854,
+          "async": false,
+          "exportedName": "getCustomerByRut",
+          "filename": "app/actions/customers.ts"
+        }
+      },
+      "layer": {
+        "app/quoter/page": "action-browser"
+      },
+      "exportedName": "getCustomerByRut",
+      "filename": "app/actions/customers.ts"
+    }
+  },
+  "edge": {}
+}
